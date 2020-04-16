@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "home.html",
     "versionFirst": "2.11.1",
     "versionPublish": "4.10.10",
     "name": "Template6",
@@ -22,149 +22,6 @@
     "uniqCompNum": 22
   },
   "pages": {
-    "template6.html": {
-      "settings": {
-        "main": true,
-        "title": "Template 6",
-        "meta_descr": "mobiriseforum.co.uk",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#404040"
-            },
-            ".mbr-navbar__section": {
-              "background": "#404040"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "ext.menu",
-          "_customCSS": ".mbr-section__container {\n text-align: center;\n width: 100%;\n}\n\n.btn {\n  \n    background: none;/*this for transparent button*/\n    border: 1px solid #f7da64;/* this is for button border*/\n    color: #f7da64;/* this is text colour*/\n}\na:hover {\nbackground-color: #f7da64;/* button hover colour*/\ncolor: #27aae0;/* text hover colour*/\n}\n\n.text-white \n\n{\n\ncolor: #FFFF00;/*change colour to your choice*/\n\n}\n.btn  {\nborder-radius: 12px;\n  }  \n",
-          "_anchor": "ext_menu-9",
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "showButtons": false,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#404040",
-            "hamburgerColor": "#ffffff"
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-white-128x128.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "#top",
-              "title": ""
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-ext__menu",
-              "classPrefix": "mdi-",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://mobiriseforum.co.uk\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\"></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts1-8\"><span class=\"icon54-v4-switch-button-2 mbr-iconfont mbr-iconfont-btn\"></span>Control Panel</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobiriseforum.co.uk\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mdi-action-assignment-returned mbr-iconfont mbr-iconfont-btn-parent\"></span>DOWNLOAD</a></li>"
-        },
-        {
-          "_inherit": "header1",
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_styles": {
-            "H1": {
-              "font-size": "48px",
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
-            },
-            ".btn": {
-              "font-size": "100px",
-              "font-family": "'PT Sans Narrow', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
-            }
-          },
-          "_customCSS": "/*h1 {\n  font-size: 6.1vw;\n}*/\n\nh1, {\n    font-size: 50px;\n    font-size: 6.5vw;\n}\n\n\n\n.btn {\n  font-size: 6.1vw;\n}\n\n.btn {\n  \n    background: none;/*this for transparent button*/\n    border: 4px solid #f7da64;/* this is for button border*/\n    color: #f7da64;/* this is text colour*/\n}\na:hover {\nbackground-color: #f7da64;/* button hover colour*/\ncolor: #27aae0;/* text hover colour*/\n}\n",
-          "_anchor": "header4-0",
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": false,
-            "bgImage": "images/bg.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#333333",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "PURE HOSTING<br>",
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">EXPLORE PLANS</a>"
-        },
-        {
-          "_params": {
-            "HTMLCode": "<div class=\"powr-stripe-button\" id=\"e420bb9a_1586963231\"></div><script src=\"https://www.powr.io/powr.js?platform=mobirise\"></script>",
-            "hideOnPublish": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "HTMLCode": "<div class=\"powr-stripe-button\" id=\"e420bb9a_1586963231\"></div><script src=\"https://www.powr.io/powr.js?platform=mobirise\"></script>",
-          "alias": "witsec-custom-html",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-custom-html-block",
-          "_anchor": "witsec-custom-html-block-2"
-        },
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-10",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
-          },
-          "text": "2016 stcdesigns.com"
-        }
-      ]
-    },
     "page1.html": {
       "settings": {
         "meta_descr": "Site Builder Description",
@@ -202,8 +59,7 @@
           },
           "logo": {
             "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-white-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo%20white-128x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
@@ -213,12 +69,17 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-ext__menu",
               "classPrefix": "mdi-",
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "home.html",
+              "size": 0,
+              "linkInNewWindow": false,
+              "name": "content-link",
+              "family": "Material-Design-Icons",
+              "newWindow": false,
+              "active": true
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://mobiriseforum.co.uk\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\"></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts1-8\"><span class=\"icon54-v4-switch-button-2 mbr-iconfont mbr-iconfont-btn\"></span>Control Panel</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://www.panel.serverlink.gq\"><span class=\"icon54-v4-switch-button-2 mbr-iconfont mbr-iconfont-btn\"></span>Control Panel</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobiriseforum.co.uk\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mdi-action-assignment-returned mbr-iconfont mbr-iconfont-btn-parent\"></span>DOWNLOAD</a></li>",
           "_anchor": "ext_menu-3"
         },
@@ -323,7 +184,7 @@
         }
       ]
     },
-    "page2.html": {
+    "standard-mc.html": {
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "standard-mc",
@@ -360,8 +221,7 @@
           },
           "logo": {
             "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-white-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo%20white-128x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
@@ -370,13 +230,18 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-ext__menu",
+              "linkInNewWindow": false,
+              "name": "content-link",
+              "family": "Material-Design-Icons",
               "classPrefix": "mdi-",
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "home.html",
+              "size": 0,
+              "newWindow": false,
+              "active": true
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://mobiriseforum.co.uk\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\"></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts1-8\"><span class=\"icon54-v4-switch-button-2 mbr-iconfont mbr-iconfont-btn\"></span>Control Panel</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://www.panel.serverlink.gq\"><span class=\"icon54-v4-switch-button-2 mbr-iconfont mbr-iconfont-btn\"></span>Control Panel</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobiriseforum.co.uk\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mdi-action-assignment-returned mbr-iconfont mbr-iconfont-btn-parent\"></span>DOWNLOAD</a></li>",
           "_anchor": "ext_menu-b"
         },
@@ -544,6 +409,153 @@
           ],
           "_name": "features1",
           "_anchor": "features1-l"
+        }
+      ]
+    },
+    "home.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "mobiriseforum.co.uk",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#404040"
+            },
+            ".mbr-navbar__section": {
+              "background": "#404040"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "ext.menu",
+          "_customCSS": ".mbr-section__container {\n text-align: center;\n width: 100%;\n}\n\n.btn {\n  \n    background: none;/*this for transparent button*/\n    border: 1px solid #f7da64;/* this is for button border*/\n    color: #f7da64;/* this is text colour*/\n}\na:hover {\nbackground-color: #f7da64;/* button hover colour*/\ncolor: #27aae0;/* text hover colour*/\n}\n\n.text-white \n\n{\n\ncolor: #FFFF00;/*change colour to your choice*/\n\n}\n.btn  {\nborder-radius: 12px;\n  }  \n",
+          "_anchor": "ext_menu-9",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#404040",
+            "hamburgerColor": "#ffffff"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo%20white-128x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-ext__menu",
+              "classPrefix": "mdi-",
+              "link": "home.html",
+              "size": 0,
+              "linkInNewWindow": false,
+              "name": "content-link",
+              "family": "Material-Design-Icons",
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://mobiriseforum.co.uk\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://www.panel.serverlink.gq\"><span class=\"icon54-v4-switch-button-2 mbr-iconfont mbr-iconfont-btn\"></span>Control Panel</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobiriseforum.co.uk\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mdi-action-assignment-returned mbr-iconfont mbr-iconfont-btn-parent\"></span>DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "font-size": "48px",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
+            ".btn": {
+              "font-size": "100px",
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
+            }
+          },
+          "_customCSS": "/*h1 {\n  font-size: 6.1vw;\n}*/\n\nh1, {\n    font-size: 50px;\n    font-size: 6.5vw;\n}\n\n\n\n.btn {\n  font-size: 6.1vw;\n}\n\n.btn {\n  \n    background: none;/*this for transparent button*/\n    border: 4px solid #f7da64;/* this is for button border*/\n    color: #f7da64;/* this is text colour*/\n}\na:hover {\nbackground-color: #f7da64;/* button hover colour*/\ncolor: #27aae0;/* text hover colour*/\n}\n",
+          "_anchor": "header4-0",
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": false,
+            "bgImage": "images/bg.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#333333",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "PURE HOSTING<br>",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">EXPLORE PLANS</a>"
+        },
+        {
+          "_params": {
+            "HTMLCode": "<div class=\"powr-stripe-button\" id=\"e420bb9a_1586963231\"></div><script src=\"https://www.powr.io/powr.js?platform=mobirise\"></script>",
+            "hideOnPublish": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "HTMLCode": "<div class=\"powr-stripe-button\" id=\"e420bb9a_1586963231\"></div><script src=\"https://www.powr.io/powr.js?platform=mobirise\"></script>",
+          "alias": "witsec-custom-html",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-custom-html-block",
+          "_anchor": "witsec-custom-html-block-2"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-10",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "2016 stcdesigns.com"
         }
       ]
     }

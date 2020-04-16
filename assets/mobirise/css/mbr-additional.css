@@ -1,28 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-
-#ext_menu-9 .mbr-brand__name {
-  font-size: 16px;
-}
-#ext_menu-9.mbr-navbar--stuck .mbr-navbar__section {
-  background: #404040;
-}
-#ext_menu-9 .mbr-navbar__section {
-  background: #404040;
-}
-#ext_menu-9 .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#header4-0 H1 {
-  font-size: 48px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-#header4-0 .btn {
-  font-size: 100px;
-  font-family: 'PT Sans Narrow', sans-serif;
-}
 
 #ext_menu-3 .mbr-brand__name {
   font-size: 16px;
@@ -55,4 +33,26 @@
 }
 #ext_menu-b .mbr-navbar__hamburger {
   color: #ffffff;
+}
+
+
+#ext_menu-9 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-9.mbr-navbar--stuck .mbr-navbar__section {
+  background: #404040;
+}
+#ext_menu-9 .mbr-navbar__section {
+  background: #404040;
+}
+#ext_menu-9 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#header4-0 H1 {
+  font-size: 48px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#header4-0 .btn {
+  font-size: 100px;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
